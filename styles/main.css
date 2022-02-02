@@ -499,6 +499,18 @@ header{
     margin-bottom: 10px;
     margin-top: 0;
 }
+/* Modal */
+.burger{
+    width: 34px;
+    height: 22px;
+    background-color: transparent;
+    background-image: url(../images/menu/Menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    
+}
 /**Responsive**/
 @media(min-width){
     .footer-list +.footer-list-tel{
@@ -534,7 +546,7 @@ header{
     }
     .menu-other{
         overflow: hidden;
-        height: 558px;
+        height: 620px;
     }
     .menu-other .menu-grid{
         display: flex;
@@ -542,7 +554,7 @@ header{
         height: 424px;
         overflow-x: scroll;
         overflow-y: hidden;
-        padding-bottom: 50px;
+        padding-bottom: 90px;
     }
     .menu-other .menu-grid-item{
         flex: 0 0 281px;
@@ -556,5 +568,47 @@ header{
     }
     .footer-list + .footer-list-tel{
         display: block;
+    }
+}
+@media (max-width: 765px){
+    nav{
+        display: none;
+    }
+    .header{
+        gap: 21px;
+    }
+}
+@media( max-width: 568px){
+    .breadcrumbs a{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 38px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .bg{
+        padding: 55px 0;
+    }
+    .banner-box{
+        background-position: 17% center;
+        padding: 35px  24px 54px;
+    }
+}
+@media(max-width:41px;){
+
+}
+@media(max-width:360px){
+    .header-logo{
+        width: 116px;
+        height: 37px;
+        background-size: contain;
+    }
+}
+@media(max-width:320px){
+    .banner-box{
+        background-position: 17% center;
+    
     }
 }

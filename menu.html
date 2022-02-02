@@ -13,8 +13,11 @@
     <header id="#headerTop">
         <div class="container">
             <div class="header">
-                <div class="header-item">
-                    <a href="#" class="header-logo"></a>
+                    <div class="header-burger">
+                        <button class="burger" onclick="openModal(burger)" >
+                        </button>
+                    </div>
+                <a href="#" class="header-logo"></a>
                     <nav>
                         <ul class="header-nav">
                             <li> <a href="/index.html">Главная</a></li>
@@ -29,7 +32,7 @@
                     <img src="images/cart.svg" alt="Корзина">
                     <span class="button-count">5</span>
                 </span>
-                <span  class="button-text" >$125</span>
+                <span  class="button-text">$125</span>
                 </button>
             </div>
         </div>
@@ -279,6 +282,16 @@
             document.getElementById('btnUp').className = 'button-up hidden';
         }
     }
+    
+      // Menu
+      function openModal() {
+           document.getElementById("").style.top = "0px";
+       }
+
+       function closeModal() {
+           document.getElementById("").style.top = "-400px";
+       }
+
  </script>
 </body>
 </html>
