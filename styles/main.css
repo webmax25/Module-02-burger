@@ -221,7 +221,9 @@ header{
     border-radius: 22px;
     color: #443737;
     font-size: 15px;
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     flex-basis: 279px;
     background-image: url(/images/arrow.svg);
     background-size: 12.79px 7.75px;
@@ -246,7 +248,8 @@ header{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .menu-grid-title{
     font-family: 'Nunito Sans' sans-serif;
